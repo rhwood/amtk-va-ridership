@@ -108,6 +108,7 @@ exports[`App tests should render default App component 1`] = `
               <a
                 aria-current="page"
                 class="pf-v6-c-nav__link pf-m-current active"
+                data-discover="true"
                 href="/"
               >
                 Overall
@@ -164,6 +165,7 @@ exports[`App tests should render default App component 1`] = `
                   >
                     <a
                       class="pf-v6-c-nav__link"
+                      data-discover="true"
                       href="/corridors/newport-news"
                     >
                       Newport News
@@ -177,6 +179,7 @@ exports[`App tests should render default App component 1`] = `
                   >
                     <a
                       class="pf-v6-c-nav__link"
+                      data-discover="true"
                       href="/corridors/norfolk"
                     >
                       Norfolk
@@ -190,6 +193,7 @@ exports[`App tests should render default App component 1`] = `
                   >
                     <a
                       class="pf-v6-c-nav__link"
+                      data-discover="true"
                       href="/corridors/richmond"
                     >
                       Richmond
@@ -203,6 +207,7 @@ exports[`App tests should render default App component 1`] = `
                   >
                     <a
                       class="pf-v6-c-nav__link"
+                      data-discover="true"
                       href="/corridors/roanoke"
                     >
                       Roanoke
@@ -219,6 +224,7 @@ exports[`App tests should render default App component 1`] = `
             >
               <a
                 class="pf-v6-c-nav__link"
+                data-discover="true"
                 href="/sources"
               >
                 Sources
@@ -232,6 +238,7 @@ exports[`App tests should render default App component 1`] = `
             >
               <a
                 class="pf-v6-c-nav__link"
+                data-discover="true"
                 href="/support"
               >
                 Support
