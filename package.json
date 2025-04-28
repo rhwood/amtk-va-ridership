@@ -27,7 +27,7 @@
   "devDependencies": {
     "@eslint/compat": "1.2.8",
     "@eslint/eslintrc": "3.3.1",
-    "@eslint/js": "9.25.0",
+    "@eslint/js": "9.25.1",
     "@patternfly/react-charts": "8.2.1",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.3.0",
