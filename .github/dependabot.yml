@@ -21,6 +21,9 @@ updates:
       webpack:
         patterns:
           - "*webpack*"
+      jest:
+        patterns:
+          - "*jest*"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
