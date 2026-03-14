@@ -18,6 +18,9 @@ updates:
           - "eslint"
           - "@eslint*"
           - "@typescript-eslint*"
+      webpack:
+        patterns:
+          - "*webpack*"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
