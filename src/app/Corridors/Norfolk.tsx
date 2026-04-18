@@ -16,6 +16,7 @@ const Norfolk: React.FunctionComponent = () => (
       <Content component="ul" isPlainList>
         <Content component="li">A second roundtrip was added in March 2019.</Content>
         <Content component="li">A third roundtrip was added in July 2022.</Content>
+        <Content component="li">Starting in January 2026, one roundtrip was replaced with busses to accommodate the Long Bridge project.</Content>
       </Content>
     </Content>
   </PageSection>

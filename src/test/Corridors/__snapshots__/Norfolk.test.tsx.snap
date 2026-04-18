@@ -1171,6 +1171,15 @@ exports[`Norfolk tests should render Norfolk component 1`] = `
         >
           A third roundtrip was added in July 2022.
         </li>
+        <li
+          class="pf-v6-c-content--li"
+          data-ouia-component-id="OUIA-Generated-Content-5"
+          data-ouia-component-type="PF6/Content"
+          data-ouia-safe="true"
+          data-pf-content="true"
+        >
+          Starting in January 2026, one roundtrip was replaced with busses to accommodate the Long Bridge project.
+        </li>
       </ul>
     </div>
   </section>
