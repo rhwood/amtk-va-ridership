@@ -21,6 +21,7 @@ const Richmond: React.FunctionComponent = () => (
       <Content component="ul" isPlainList>
         <Content component="li">Services only on this corridor was suspended from April 2020 to September 2021 due to the pandemic.</Content>
         <Content component="li">In September 2021, service was extended from Richmond Staple Mills station to Richmond Main Street station.</Content>
+        <Content component="li">Starting in January 2026, service was replaced with busses to accommodate the Long Bridge project.</Content>
       </Content>
     </Content>
   </PageSection>
