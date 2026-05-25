@@ -10,7 +10,7 @@ exports[`App tests should render default App component 1`] = `
     >
       <a
         class="pf-v6-c-button pf-m-primary"
-        data-ouia-component-id="OUIA-Generated-Button-primary-1"
+        data-ouia-component-id="OUIA-Generated-Button-primary-_r_0_"
         data-ouia-component-type="PF6/Button"
         data-ouia-safe="true"
         href="#primary-app-container"
@@ -34,7 +34,7 @@ exports[`App tests should render default App component 1`] = `
           <button
             aria-label="Global navigation"
             class="pf-v6-c-button pf-m-plain"
-            data-ouia-component-id="OUIA-Generated-Button-plain-1"
+            data-ouia-component-id="OUIA-Generated-Button-plain-_r_1_"
             data-ouia-component-type="PF6/Button"
             data-ouia-safe="true"
             type="button"
@@ -48,12 +48,24 @@ exports[`App tests should render default App component 1`] = `
                 fill="currentColor"
                 height="1em"
                 role="img"
-                viewBox="0 0 448 512"
                 width="1em"
               >
-                <path
-                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
-                />
+                <svg
+                  class="pf-v6-icon-default"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                  />
+                </svg>
+                <svg
+                  class="pf-v6-icon-rh-ui"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    d="M31 16a1 1 0 0 1-1 1H2a1 1 0 1 1 0-2h28a1 1 0 0 1 1 1Zm-1 9H2a1 1 0 1 0 0 2h28a1 1 0 1 0 0-2ZM2 7h28a1 1 0 1 0 0-2H2a1 1 0 1 0 0 2Z"
+                  />
+                </svg>
               </svg>
             </span>
           </button>
@@ -78,172 +90,176 @@ exports[`App tests should render default App component 1`] = `
     </header>
     <div
       aria-hidden="false"
-      class="pf-v6-c-page__sidebar pf-m-expanded"
+      class="pf-v6-c-page__sidebar"
       id="page-sidebar"
     >
       <div
-        class="pf-v6-c-page__sidebar-body"
+        class="pf-v6-c-page__sidebar-main"
       >
-        <nav
-          aria-label="Global"
-          class="pf-v6-c-nav"
-          data-ouia-component-id="OUIA-Generated-Nav-1"
-          data-ouia-component-type="PF6/Nav"
-          data-ouia-safe="true"
-          id="nav-primary-simple"
+        <div
+          class="pf-v6-c-page__sidebar-body"
         >
-          <ul
-            class="pf-v6-c-nav__list"
-            id="nav-list-simple"
-            role="list"
+          <nav
+            aria-label="Global"
+            class="pf-v6-c-nav"
+            data-ouia-component-id="OUIA-Generated-Nav-_r_3_"
+            data-ouia-component-type="PF6/Nav"
+            data-ouia-safe="true"
+            id="nav-primary-simple"
           >
-            <li
-              class="pf-v6-c-nav__item"
-              data-ouia-component-id="OUIA-Generated-NavItem-1"
-              data-ouia-component-type="PF6/NavItem"
-              data-ouia-safe="true"
+            <ul
+              class="pf-v6-c-nav__list"
+              id="nav-list-simple"
+              role="list"
             >
-              <a
-                aria-current="page"
-                class="pf-v6-c-nav__link pf-m-current active"
-                data-discover="true"
-                href="/"
+              <li
+                class="pf-v6-c-nav__item"
+                data-ouia-component-id="OUIA-Generated-NavItem-_r_4_"
+                data-ouia-component-type="PF6/NavItem"
+                data-ouia-safe="true"
               >
-                Overall
-              </a>
-            </li>
-            <li
-              class="pf-v6-c-nav__item"
-              data-ouia-component-id="OUIA-Generated-NavExpandable-1"
-              data-ouia-component-type="PF6/NavExpandable"
-              data-ouia-safe="true"
-            >
-              <button
-                aria-expanded="false"
-                class="pf-v6-c-nav__link"
-                id="Corridors-1"
-              >
-                Corridors
-                <span
-                  class="pf-v6-c-nav__toggle"
+                <a
+                  aria-current="page"
+                  class="pf-v6-c-nav__link pf-m-current active"
+                  data-discover="true"
+                  href="/"
                 >
+                  Overall
+                </a>
+              </li>
+              <li
+                class="pf-v6-c-nav__item"
+                data-ouia-component-id="OUIA-Generated-NavExpandable-_r_6_"
+                data-ouia-component-type="PF6/NavExpandable"
+                data-ouia-safe="true"
+              >
+                <button
+                  aria-expanded="false"
+                  class="pf-v6-c-nav__link"
+                  id="Corridors-1"
+                >
+                  Corridors
                   <span
-                    class="pf-v6-c-nav__toggle-icon"
+                    class="pf-v6-c-nav__toggle"
                   >
-                    <svg
-                      aria-hidden="true"
-                      class="pf-v6-svg"
-                      fill="currentColor"
-                      height="1em"
-                      role="img"
-                      viewBox="0 0 256 512"
-                      width="1em"
+                    <span
+                      class="pf-v6-c-nav__toggle-icon"
                     >
-                      <path
-                        d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
-                      />
-                    </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="pf-v6-svg"
+                        fill="currentColor"
+                        height="1em"
+                        role="img"
+                        viewBox="0 0 20 20"
+                        width="1em"
+                      >
+                        <path
+                          d="M18.71 5.29a.996.996 0 0 0-1.41 0l-7.29 7.29-7.3-7.29a.987.987 0 0 0-1.41-.02.987.987 0 0 0-.02 1.41l.02.02 7.65 7.65c.29.29.68.44 1.06.44s.77-.15 1.06-.44l7.65-7.65a.996.996 0 0 0 0-1.41Z"
+                        />
+                      </svg>
+                    </span>
                   </span>
-                </span>
-              </button>
-              <section
-                aria-labelledby="Corridors-1"
-                class="pf-v6-c-nav__subnav"
-                hidden=""
-              >
-                <ul
-                  class="pf-v6-c-nav__list"
-                  role="list"
+                </button>
+                <section
+                  aria-labelledby="Corridors-1"
+                  class="pf-v6-c-nav__subnav"
+                  hidden=""
                 >
-                  <li
-                    class="pf-v6-c-nav__item"
-                    data-ouia-component-id="OUIA-Generated-NavItem-2"
-                    data-ouia-component-type="PF6/NavItem"
-                    data-ouia-safe="true"
+                  <ul
+                    class="pf-v6-c-nav__list"
+                    role="list"
                   >
-                    <a
-                      class="pf-v6-c-nav__link"
-                      data-discover="true"
-                      href="/corridors/newport-news"
+                    <li
+                      class="pf-v6-c-nav__item"
+                      data-ouia-component-id="OUIA-Generated-NavItem-_r_7_"
+                      data-ouia-component-type="PF6/NavItem"
+                      data-ouia-safe="true"
                     >
-                      Newport News
-                    </a>
-                  </li>
-                  <li
-                    class="pf-v6-c-nav__item"
-                    data-ouia-component-id="OUIA-Generated-NavItem-3"
-                    data-ouia-component-type="PF6/NavItem"
-                    data-ouia-safe="true"
-                  >
-                    <a
-                      class="pf-v6-c-nav__link"
-                      data-discover="true"
-                      href="/corridors/norfolk"
+                      <a
+                        class="pf-v6-c-nav__link"
+                        data-discover="true"
+                        href="/corridors/newport-news"
+                      >
+                        Newport News
+                      </a>
+                    </li>
+                    <li
+                      class="pf-v6-c-nav__item"
+                      data-ouia-component-id="OUIA-Generated-NavItem-_r_8_"
+                      data-ouia-component-type="PF6/NavItem"
+                      data-ouia-safe="true"
                     >
-                      Norfolk
-                    </a>
-                  </li>
-                  <li
-                    class="pf-v6-c-nav__item"
-                    data-ouia-component-id="OUIA-Generated-NavItem-4"
-                    data-ouia-component-type="PF6/NavItem"
-                    data-ouia-safe="true"
-                  >
-                    <a
-                      class="pf-v6-c-nav__link"
-                      data-discover="true"
-                      href="/corridors/richmond"
+                      <a
+                        class="pf-v6-c-nav__link"
+                        data-discover="true"
+                        href="/corridors/norfolk"
+                      >
+                        Norfolk
+                      </a>
+                    </li>
+                    <li
+                      class="pf-v6-c-nav__item"
+                      data-ouia-component-id="OUIA-Generated-NavItem-_r_9_"
+                      data-ouia-component-type="PF6/NavItem"
+                      data-ouia-safe="true"
                     >
-                      Richmond
-                    </a>
-                  </li>
-                  <li
-                    class="pf-v6-c-nav__item"
-                    data-ouia-component-id="OUIA-Generated-NavItem-5"
-                    data-ouia-component-type="PF6/NavItem"
-                    data-ouia-safe="true"
-                  >
-                    <a
-                      class="pf-v6-c-nav__link"
-                      data-discover="true"
-                      href="/corridors/roanoke"
+                      <a
+                        class="pf-v6-c-nav__link"
+                        data-discover="true"
+                        href="/corridors/richmond"
+                      >
+                        Richmond
+                      </a>
+                    </li>
+                    <li
+                      class="pf-v6-c-nav__item"
+                      data-ouia-component-id="OUIA-Generated-NavItem-_r_a_"
+                      data-ouia-component-type="PF6/NavItem"
+                      data-ouia-safe="true"
                     >
-                      Roanoke
-                    </a>
-                  </li>
-                </ul>
-              </section>
-            </li>
-            <li
-              class="pf-v6-c-nav__item"
-              data-ouia-component-id="OUIA-Generated-NavItem-6"
-              data-ouia-component-type="PF6/NavItem"
-              data-ouia-safe="true"
-            >
-              <a
-                class="pf-v6-c-nav__link"
-                data-discover="true"
-                href="/sources"
+                      <a
+                        class="pf-v6-c-nav__link"
+                        data-discover="true"
+                        href="/corridors/roanoke"
+                      >
+                        Roanoke
+                      </a>
+                    </li>
+                  </ul>
+                </section>
+              </li>
+              <li
+                class="pf-v6-c-nav__item"
+                data-ouia-component-id="OUIA-Generated-NavItem-_r_b_"
+                data-ouia-component-type="PF6/NavItem"
+                data-ouia-safe="true"
               >
-                Sources
-              </a>
-            </li>
-            <li
-              class="pf-v6-c-nav__item"
-              data-ouia-component-id="OUIA-Generated-NavItem-7"
-              data-ouia-component-type="PF6/NavItem"
-              data-ouia-safe="true"
-            >
-              <a
-                class="pf-v6-c-nav__link"
-                data-discover="true"
-                href="/support"
+                <a
+                  class="pf-v6-c-nav__link"
+                  data-discover="true"
+                  href="/sources"
+                >
+                  Sources
+                </a>
+              </li>
+              <li
+                class="pf-v6-c-nav__item"
+                data-ouia-component-id="OUIA-Generated-NavItem-_r_c_"
+                data-ouia-component-type="PF6/NavItem"
+                data-ouia-safe="true"
               >
-                Support
-              </a>
-            </li>
-          </ul>
-        </nav>
+                <a
+                  class="pf-v6-c-nav__link"
+                  data-discover="true"
+                  href="/support"
+                >
+                  Support
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
     <div
@@ -259,7 +275,7 @@ exports[`App tests should render default App component 1`] = `
         >
           <h1
             class="pf-v6-c-title pf-m-lg"
-            data-ouia-component-id="OUIA-Generated-Title-1"
+            data-ouia-component-id="OUIA-Generated-Title-_r_d_"
             data-ouia-component-type="PF6/Title"
             data-ouia-safe="true"
           >
@@ -267,14 +283,14 @@ exports[`App tests should render default App component 1`] = `
           </h1>
           <div
             class="pf-v6-c-content"
-            data-ouia-component-id="OUIA-Generated-Content-1"
+            data-ouia-component-id="OUIA-Generated-Content-_r_e_"
             data-ouia-component-type="PF6/Content"
             data-ouia-safe="true"
             data-pf-content="true"
           >
             <p
               class="pf-v6-c-content--p"
-              data-ouia-component-id="OUIA-Generated-Content-2"
+              data-ouia-component-id="OUIA-Generated-Content-_r_f_"
               data-ouia-component-type="PF6/Content"
               data-ouia-safe="true"
               data-pf-content="true"
@@ -283,7 +299,7 @@ exports[`App tests should render default App component 1`] = `
             </p>
             <h3
               class="pf-v6-c-title pf-m-h3"
-              data-ouia-component-id="OUIA-Generated-Title-2"
+              data-ouia-component-id="OUIA-Generated-Title-_r_g_"
               data-ouia-component-type="PF6/Title"
               data-ouia-safe="true"
             >
@@ -306,7 +322,7 @@ exports[`App tests should render default App component 1`] = `
                   <line
                     role="presentation"
                     shape-rendering="auto"
-                    style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+                    style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
                     vector-effect="non-scaling-stroke"
                     x1="100"
                     x2="400"
@@ -319,7 +335,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="100"
                       x2="100"
@@ -350,7 +366,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="127.27272727272728"
                       x2="127.27272727272728"
@@ -381,7 +397,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="154.54545454545456"
                       x2="154.54545454545456"
@@ -412,7 +428,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="181.8181818181818"
                       x2="181.8181818181818"
@@ -443,7 +459,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="209.0909090909091"
                       x2="209.0909090909091"
@@ -474,7 +490,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="236.36363636363635"
                       x2="236.36363636363635"
@@ -505,7 +521,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="263.6363636363636"
                       x2="263.6363636363636"
@@ -536,7 +552,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="290.9090909090909"
                       x2="290.9090909090909"
@@ -567,7 +583,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="318.1818181818182"
                       x2="318.1818181818182"
@@ -598,7 +614,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="345.4545454545455"
                       x2="345.4545454545455"
@@ -629,7 +645,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="372.72727272727275"
                       x2="372.72727272727275"
@@ -660,7 +676,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="400"
                       x2="400"
@@ -692,7 +708,7 @@ exports[`App tests should render default App component 1`] = `
                   <line
                     role="presentation"
                     shape-rendering="auto"
-                    style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+                    style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
                     vector-effect="non-scaling-stroke"
                     x1="100"
                     x2="100"
@@ -705,7 +721,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                      style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                       vector-effect="non-scaling-stroke"
                       x1="100"
                       x2="400"
@@ -715,7 +731,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="100"
                       x2="95"
@@ -808,7 +824,7 @@ exports[`App tests should render default App component 1`] = `
       z"
                     role="presentation"
                     shape-rendering="auto"
-                    style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
+                    style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgba(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
                   />
                   <text
                     direction="inherit"
@@ -842,7 +858,7 @@ exports[`App tests should render default App component 1`] = `
             </div>
             <h3
               class="pf-v6-c-title pf-m-h3"
-              data-ouia-component-id="OUIA-Generated-Title-3"
+              data-ouia-component-id="OUIA-Generated-Title-_r_h_"
               data-ouia-component-type="PF6/Title"
               data-ouia-safe="true"
             >
@@ -865,7 +881,7 @@ exports[`App tests should render default App component 1`] = `
                   <line
                     role="presentation"
                     shape-rendering="auto"
-                    style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+                    style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
                     vector-effect="non-scaling-stroke"
                     x1="100"
                     x2="400"
@@ -878,7 +894,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="100"
                       x2="100"
@@ -909,7 +925,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="127.27272727272728"
                       x2="127.27272727272728"
@@ -940,7 +956,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="154.54545454545456"
                       x2="154.54545454545456"
@@ -971,7 +987,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="181.8181818181818"
                       x2="181.8181818181818"
@@ -1002,7 +1018,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="209.0909090909091"
                       x2="209.0909090909091"
@@ -1033,7 +1049,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="236.36363636363635"
                       x2="236.36363636363635"
@@ -1064,7 +1080,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="263.6363636363636"
                       x2="263.6363636363636"
@@ -1095,7 +1111,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="290.9090909090909"
                       x2="290.9090909090909"
@@ -1126,7 +1142,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="318.1818181818182"
                       x2="318.1818181818182"
@@ -1157,7 +1173,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="345.4545454545455"
                       x2="345.4545454545455"
@@ -1188,7 +1204,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="372.72727272727275"
                       x2="372.72727272727275"
@@ -1219,7 +1235,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="400"
                       x2="400"
@@ -1251,7 +1267,7 @@ exports[`App tests should render default App component 1`] = `
                   <line
                     role="presentation"
                     shape-rendering="auto"
-                    style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+                    style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
                     vector-effect="non-scaling-stroke"
                     x1="100"
                     x2="100"
@@ -1264,7 +1280,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                      style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                       vector-effect="non-scaling-stroke"
                       x1="100"
                       x2="400"
@@ -1274,7 +1290,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="100"
                       x2="95"
@@ -1305,7 +1321,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                      style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                       vector-effect="non-scaling-stroke"
                       x1="100"
                       x2="400"
@@ -1315,7 +1331,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="100"
                       x2="95"
@@ -1346,7 +1362,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                      style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                       vector-effect="non-scaling-stroke"
                       x1="100"
                       x2="400"
@@ -1356,7 +1372,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="100"
                       x2="95"
@@ -1387,7 +1403,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                      style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                       vector-effect="non-scaling-stroke"
                       x1="100"
                       x2="400"
@@ -1397,7 +1413,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="100"
                       x2="95"
@@ -1428,7 +1444,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                      style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                       vector-effect="non-scaling-stroke"
                       x1="100"
                       x2="400"
@@ -1438,7 +1454,7 @@ exports[`App tests should render default App component 1`] = `
                     <line
                       role="presentation"
                       shape-rendering="auto"
-                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                      style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                       vector-effect="non-scaling-stroke"
                       x1="100"
                       x2="95"
@@ -1531,7 +1547,7 @@ exports[`App tests should render default App component 1`] = `
       z"
                     role="presentation"
                     shape-rendering="auto"
-                    style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
+                    style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgba(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
                   />
                   <text
                     direction="inherit"
