@@ -59,7 +59,7 @@ export const MultiYearMonthlyChart = ({ name, source, lineFn, base = 1000, isPer
 export interface VPRAStats {
   Year: number;
   Month: number;
-  'Newport News': number;
+  NewportNews: number;
   Norfolk: number;
   Richmond: number;
   Roanoke: number;
