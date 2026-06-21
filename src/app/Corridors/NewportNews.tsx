@@ -9,9 +9,9 @@ const NewportNews: React.FunctionComponent = () => (
     <Title headingLevel="h1" size="lg">Newport News Corridor</Title>
     <Content>
       <Title headingLevel="h3">Ridership</Title>
-      <MultiYearMonthlyRidershipChart lineFn={(row: VPRAStats): number => row['Newport News']} />
+      <MultiYearMonthlyRidershipChart lineFn={(row: VPRAStats): number => row.NewportNews} />
       <Title headingLevel="h3">On Time Performance</Title>
-      <MultiYearMonthlyOTPChart lineFn={(row: VPRAStats): number => row['Newport News']} />
+      <MultiYearMonthlyOTPChart lineFn={(row: VPRAStats): number => row.NewportNews} />
       <Title headingLevel={ContentVariants.h3}>Notes</Title>
       <Content component="ul" isPlainList>
         <Content component="li">A roundtrip cancelled due to the pandemic was resumed in July 2022.</Content>
