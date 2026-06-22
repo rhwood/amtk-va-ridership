@@ -7,6 +7,8 @@ import { NewportNews } from '@app/Corridors/NewportNews';
 import { Norfolk } from '@app/Corridors/Norfolk';
 import { Richmond } from '@app/Corridors/Richmond';
 import { Roanoke } from '@app/Corridors/Roanoke';
+import { HamptonRoadsBus } from '@app/Corridors/HamptonRoadsBus';
+import { RichmondBus } from './Corridors/RichmondBus';
 import { NotFound } from '@app/NotFound/NotFound';
 
 const BASE_PATH = process.env.BASE_PATH || '/';
@@ -65,6 +67,20 @@ const routes: AppRouteConfig[] = [
         label: 'Roanoke',
         path: BASE_PATH + 'corridors/roanoke',
         title: 'Amtrak Virginia Ridership | Roanoke'
+      },
+      {
+        element: <HamptonRoadsBus/>,
+        exact: true,
+        label: 'Hampton Roads Express Bus',
+        path: BASE_PATH + 'corridors/hampton-roads-bus',
+        title: 'Amtrak Virginia Ridership | Hampton Roads Express Bus'
+      },
+      {
+        element: <RichmondBus/>,
+        exact: true,
+        label: 'Richmond Express Bus',
+        path: BASE_PATH + 'corridors/richmond-bus',
+        title: 'Amtrak Virginia Ridership | Richmond Express Bus'
       }
     ],
   },

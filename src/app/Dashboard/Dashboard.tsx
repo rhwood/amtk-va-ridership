@@ -13,7 +13,7 @@ const Dashboard: React.FunctionComponent = () => (
         This site visualizes the ridership data for those trains as provided monthly by the VRPA.
       </Content>
       <Title headingLevel="h3">Ridership</Title>
-      <MultiYearMonthlyRidershipChart lineFn={(row: VPRAStats): number => row.NewportNews + row.Norfolk + row.Richmond + row.Roanoke} />
+      <MultiYearMonthlyRidershipChart lineFn={(row: VPRAStats): number => row.NewportNews + row.Norfolk + row.Richmond + row.Roanoke + row.HamptonRoadsBus + row.RichmondBus} />
       <Title headingLevel="h3">On Time Performance</Title>
       <MultiYearMonthlyOTPChart lineFn={(row: VPRAStats): number => (row.NewportNews + row.Norfolk + row.Richmond + row.Roanoke) / 4} />
     </Content>
