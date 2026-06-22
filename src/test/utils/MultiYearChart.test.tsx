@@ -3,13 +3,13 @@
  */
 
 import * as React from 'react';
-import { MultiYearMonthlyRidershipChart } from '@app/utils/MultiYearChart';
+import { MultiYearMonthlyRidershipChart, VPRAStats } from '@app/utils/MultiYearChart';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom'
 
 describe('MultiYearMonthlyRidershipChart tests', () => {
     test('should render MultiYearMonthlyRidershipChart component', async () => {
-        const lineFn = (row: any): number => row.NewportNews;
+        const lineFn = (row: VPRAStats): number => row.NewportNews;
         const { asFragment } = render(
             <div style={{ height: '300px', width: '600px' }}>
                 <MultiYearMonthlyRidershipChart lineFn={lineFn} startYear={1900} />
