@@ -76,7 +76,7 @@
     "@patternfly/react-core": "6.6.1",
     "@patternfly/react-icons": "6.6.1",
     "@patternfly/react-styles": "6.6.1",
-    "react": "19.2.5",
-    "react-dom": "19.2.5"
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
   }
 }
