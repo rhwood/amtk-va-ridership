@@ -138,7 +138,11 @@ exports[`App tests should render default App component 1`] = `
                   class="pf-v6-c-nav__link"
                   id="Corridors-1"
                 >
-                  Corridors
+                  <span
+                    class="pf-v6-c-nav__link-text"
+                  >
+                    Corridors
+                  </span>
                   <span
                     class="pf-v6-c-nav__toggle"
                   >
@@ -165,6 +169,7 @@ exports[`App tests should render default App component 1`] = `
                   aria-labelledby="Corridors-1"
                   class="pf-v6-c-nav__subnav"
                   hidden=""
+                  inert=""
                 >
                   <ul
                     class="pf-v6-c-nav__list"
